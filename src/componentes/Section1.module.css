@@ -46,6 +46,7 @@ h2{
 
 
     .sessão1{
+        
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -55,7 +56,7 @@ h2{
 
 
     .texto1{
-        width: 320px;
+        width: 90%;
         height: 200px;
         font-size: 30px;
         text-align: center;
@@ -70,7 +71,7 @@ h2{
 
     .cartão{
         background-size: cover;
-        width: 327px;
+        width: 350px;
         height: 400px;
         margin-left: 0;
         margin-top: 0;
