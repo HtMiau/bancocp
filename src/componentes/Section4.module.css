@@ -1,0 +1,138 @@
+ .sessão4{
+    width: 100%;
+    height: auto;
+    background-blend-mode: color;
+    
+}
+
+.caixazonaa{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-top: 200px; 
+}
+
+
+.caixona{
+    width: 80%;
+    height: 500px;
+    margin-left: 262px;
+   
+    background: linear-gradient(180deg, rgb(69, 1, 100) 0%, rgb(61, 0, 154) 92.19%, rgba(1, 16, 93, 0.774) 100%);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.img img{
+    margin-left: 50px;
+    position: absolute;
+}
+
+.texto1{
+    position: absolute;
+    font-size: 80px;
+    margin-bottom: 300px;
+    font-family: 'Myanmar';
+    color: rgb(231, 246, 255);
+    margin-top: 50px;
+}
+
+
+.caixona .cartom {
+    width: 400px;
+    height: 250px;
+    background-image: url(./img/cartom.png);
+    margin-top: 200px;
+    margin-left: 30px;
+    background-size: cover;
+    
+}
+
+.caixinha .logoapp  {
+    width: 250px;
+    height: 250px;
+    background-size:cover ;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    background-image: url(./img/fotoapp.png) ;
+}
+
+
+.caixinha .aplle {
+    width: 250px;
+    height: 100px;
+    background-image: url(./img/apple.png);
+    background-size: cover;
+    
+}
+
+.caixinha .android {
+    width: 250px;
+    height: 100px;
+    background-image: url(./img/android.png);
+    background-size: cover;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    .caixazonaa{
+
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 550px;
+    }
+
+    .caixona{
+        width: 90%;
+        height: 500px;
+        margin-left: 0;
+        border-radius: 30px;
+        
+    }
+
+    .caixona .cartom {
+        width: 400px;
+        height: 250px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        z-index: 10;
+        margin-top: 500px;
+        display: none;
+
+        
+    }
+
+    .texto1 h5{
+        font-size: 40px;
+        margin-top: 220px;
+    }
+
+    .caixinha{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .caixinha .logoapp{
+        margin-left: 0;
+    }
+
+    .img{
+        display: none;
+    }
+
+
+
+}

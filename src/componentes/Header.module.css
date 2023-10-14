@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Myanmar';
+    src: url(./fontes/Myanmar-Khyay/khyay/Khyay-Regular.ttf);
+}
+
+.header{
+    width:100%;
+    height: 140px;
+    background: linear-gradient(180deg, #7b04d6 0%, rgba(119, 1, 159, 0.87) 88.79%, rgba(63, 0, 64, 0) 99.1%, rgba(250, 0, 255, 0.00) 99.11%);
+
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    
+}
+
+.logo{
+    margin-top: 20px;
+    width: 120px;
+    height:120px;
+    margin-right: 450px;
+    background-image: url(./img/logo.png);
+    background-size: cover;
+   
+}
+
+.linkes{
+    width: 500px;
+    height: 140px;
+    list-style: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Myanmar';
+    cursor: pointer;
+    
+
+}
+
+.entrar :hover{
+    color: black;
+    transition: 1s;
+}
+
+button{
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mobilemenu a:hover{
+    background: #22023b;
+    border-radius: 50px;
+    
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(231, 246, 255);
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+ul li a .navitem{
+    background-color: black;
+}
+
+.mobilemenu a {
+    width: 100px;
+    height: 100px;
+}
+
+.mobilemenu{
+    width:  250px;
+    height: 200px;
+    display: none;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(56, 5, 95);
+    border-radius: 30px;
+    margin-left: 1050px;
+    position: absolute;
+    
+}
+
+.open {
+    display: block;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*Mobile*/
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+
+    .logo{
+        width: 120px;
+        height: 130px;
+        margin-right: 0;
+        margin-top: 0px;
+    }
+
+
+    button{
+        margin-left: 100px;
+    }
+    
+
+    .mobilemenu{
+        margin-left: 70px;
+        
+    }
+
+    .linkes{
+        width: 200px;
+    }
+
+    .linkes .entrar{
+        display: none;
+    }
+
+    .linkes .cadastre{
+        display: none;
+    }
+}
+
+
+
+
+
