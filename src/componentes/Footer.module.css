@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    height: 230px;
+    height: 250px;
     background: linear-gradient(180deg, #010035 0%, rgb(82, 0, 74) 100%);
     display: flex;
     justify-content: space-around;
@@ -11,7 +11,7 @@ footer{
 
 .img3{
     width: 200px;
-    height: 200px;
+    height: 230px;
     background-image: url(./img/logo.png);
     background-size: cover;
 }
