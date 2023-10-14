@@ -46,7 +46,7 @@ h2{
 
 
     .sessão1{
-        
+        width: 100%;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
