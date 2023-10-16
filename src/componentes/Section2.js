@@ -1,10 +1,15 @@
 import Styles from './Section2.module.css'
 import robo from './img/Group6.png'
-
+import vidiozin from "./img/vidiozin.mp4"
 
 function Section2 (){
     return(
         <section className={Styles.sessão2}>
+
+                <video autoPlay muted loop>
+                    <source src={vidiozin} type="video/mp4"></source>
+                </video>
+
             <div className={Styles.slide}></div>
 
             

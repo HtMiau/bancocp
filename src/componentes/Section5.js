@@ -1,9 +1,15 @@
 import Styles from './Section5.module.css'
+import vidiozin from './img/vidiozin.mp4'
 
 
 function Section5 (){
     return(
         <section className={Styles.sessão5}>
+
+                <video autoPlay muted loop>
+                    <source src={vidiozin} type="video/mp4"></source>
+                </video>
+
             <div className={Styles.fundo2}>
                 <div className={Styles.redes}>
 

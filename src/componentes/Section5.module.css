@@ -7,6 +7,14 @@
     margin-top: 150px;
 }
 
+video{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 2;
+    z-index: -1;
+}
+
 .redes{
     width: 800px;
     height: 650px;
@@ -92,6 +100,10 @@
     .sessão5{
         width: 100%;
         margin-top: 30px;
+    }
+    
+    video{
+        display: none;
     }
 
     .redes{

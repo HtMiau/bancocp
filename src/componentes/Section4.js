@@ -2,10 +2,13 @@ import Styles from './Section4.module.css'
 import logoapp from './img/fotoapp.png'
 import cerura from './img/cerura.png'
 import cartom from './img/cartom.png'
+import vidiozin from "./img/vidiozin.mp4"
 
 function Section4 (){
     return(
         <section className={Styles.sessão4}>
+
+            
            
             <div className={Styles.img}>
                 <img src={cerura}></img>

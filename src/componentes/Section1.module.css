@@ -44,6 +44,11 @@ h2{
 
 @media (min-width: 320px) and (max-width: 480px){
 
+    video{
+        display: none;
+    }
+
+
 
     .sessão1{
         width: 100%;
