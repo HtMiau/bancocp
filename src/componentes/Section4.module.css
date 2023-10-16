@@ -80,6 +80,10 @@
 
 @media (min-width: 320px) and (max-width: 480px){
 
+    .sessão4{
+        margin-top: 100px;
+    }
+
     .caixazonaa{
 
         width: 100%;
@@ -88,7 +92,7 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-        margin-top: 550px;
+        margin-top: 580px;
     }
 
     .caixona{

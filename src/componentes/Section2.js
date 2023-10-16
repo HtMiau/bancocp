@@ -1,6 +1,7 @@
 import Styles from './Section2.module.css'
 import robo from './img/Group6.png'
 
+
 function Section2 (){
     return(
         <section className={Styles.sessão2}>
