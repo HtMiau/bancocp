@@ -117,6 +117,12 @@ video{
         width: 90%;
     }
 
+     .caixas a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
     .redes .caixona1{
         width: 300px;
         display: flex;
